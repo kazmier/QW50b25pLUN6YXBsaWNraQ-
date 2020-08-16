@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-type UrlModel struct {
+type Model struct {
 	Id       int            `json:"id"`
 	Url      string         `json:"url"`
 	Interval float32        `json:"interval"`
